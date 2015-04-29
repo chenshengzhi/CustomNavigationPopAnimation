@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  CustomNavigationPopAnimation
+//
+//  Created by 陈圣治 on 15/4/3.
+//  Copyright (c) 2015年 zzy. All rights reserved.
+//
+
+#ifndef CustomNavigationPopAnimation_PrefixHeader_pch
+#define CustomNavigationPopAnimation_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "UIView+frameAddition.h"
+#import "UIViewController+CustomPopBehivor.h"
+
+#endif

@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7CE3ECB1ACE8ABE00685E98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CE3ECA1ACE8ABE00685E98 /* main.m */; };
+		D7CE3ECE1ACE8ABE00685E98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CE3ECD1ACE8ABE00685E98 /* AppDelegate.m */; };
+		D7CE3ED61ACE8ABE00685E98 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7CE3ED51ACE8ABE00685E98 /* Images.xcassets */; };
+		D7CE3ED91ACE8ABE00685E98 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7CE3ED71ACE8ABE00685E98 /* LaunchScreen.xib */; };
+		D7CE3EE51ACE8ABE00685E98 /* CustomNavigationPopAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CE3EE41ACE8ABE00685E98 /* CustomNavigationPopAnimationTests.m */; };
+		D7CE3EF01ACE8AF300685E98 /* CNPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CE3EEF1ACE8AF300685E98 /* CNPNavigationController.m */; };
+		D7CE3EF31ACE8B0E00685E98 /* CNPAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CE3EF21ACE8B0E00685E98 /* CNPAnimation.m */; };
+		D7CE3EF61ACE929E00685E98 /* UIView+frameAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CE3EF51ACE929E00685E98 /* UIView+frameAddition.m */; };
+		D7CE3F001ACE9A6700685E98 /* CNPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CE3EFF1ACE9A6700685E98 /* CNPViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7CE3EDF1ACE8ABE00685E98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7CE3EBD1ACE8ABE00685E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7CE3EC41ACE8ABE00685E98;
+			remoteInfo = CustomNavigationPopAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7CE3EC51ACE8ABE00685E98 /* CustomNavigationPopAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomNavigationPopAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7CE3EC91ACE8ABE00685E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7CE3ECA1ACE8ABE00685E98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7CE3ECC1ACE8ABE00685E98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D7CE3ECD1ACE8ABE00685E98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D7CE3ED51ACE8ABE00685E98 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D7CE3ED81ACE8ABE00685E98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D7CE3EDE1ACE8ABE00685E98 /* CustomNavigationPopAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomNavigationPopAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7CE3EE31ACE8ABE00685E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7CE3EE41ACE8ABE00685E98 /* CustomNavigationPopAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationPopAnimationTests.m; sourceTree = "<group>"; };
+		D7CE3EEE1ACE8AF300685E98 /* CNPNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNPNavigationController.h; sourceTree = "<group>"; };
+		D7CE3EEF1ACE8AF300685E98 /* CNPNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNPNavigationController.m; sourceTree = "<group>"; };
+		D7CE3EF11ACE8B0E00685E98 /* CNPAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNPAnimation.h; sourceTree = "<group>"; };
+		D7CE3EF21ACE8B0E00685E98 /* CNPAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNPAnimation.m; sourceTree = "<group>"; };
+		D7CE3EF41ACE929E00685E98 /* UIView+frameAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+frameAddition.h"; sourceTree = "<group>"; };
+		D7CE3EF51ACE929E00685E98 /* UIView+frameAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+frameAddition.m"; sourceTree = "<group>"; };
+		D7CE3EFB1ACE9A1000685E98 /* UIViewController+CustomPopBehivor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CustomPopBehivor.h"; sourceTree = "<group>"; };
+		D7CE3EFE1ACE9A6700685E98 /* CNPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNPViewController.h; sourceTree = "<group>"; };
+		D7CE3EFF1ACE9A6700685E98 /* CNPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNPViewController.m; sourceTree = "<group>"; };
+		D7CE3F041ACE9B8100685E98 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7CE3EC21ACE8ABE00685E98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7CE3EDB1ACE8ABE00685E98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7CE3EBC1ACE8ABE00685E98 = {
+			isa = PBXGroup;
+			children = (
+				D7CE3EC71ACE8ABE00685E98 /* CustomNavigationPopAnimation */,
+				D7CE3EE11ACE8ABE00685E98 /* CustomNavigationPopAnimationTests */,
+				D7CE3EC61ACE8ABE00685E98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7CE3EC61ACE8ABE00685E98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7CE3EC51ACE8ABE00685E98 /* CustomNavigationPopAnimation.app */,
+				D7CE3EDE1ACE8ABE00685E98 /* CustomNavigationPopAnimationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7CE3EC71ACE8ABE00685E98 /* CustomNavigationPopAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				D7CE3ECC1ACE8ABE00685E98 /* AppDelegate.h */,
+				D7CE3ECD1ACE8ABE00685E98 /* AppDelegate.m */,
+				D7CE3EFE1ACE9A6700685E98 /* CNPViewController.h */,
+				D7CE3EFF1ACE9A6700685E98 /* CNPViewController.m */,
+				D7CE3EEE1ACE8AF300685E98 /* CNPNavigationController.h */,
+				D7CE3EEF1ACE8AF300685E98 /* CNPNavigationController.m */,
+				D7CE3EF11ACE8B0E00685E98 /* CNPAnimation.h */,
+				D7CE3EF21ACE8B0E00685E98 /* CNPAnimation.m */,
+				D7CE3EF41ACE929E00685E98 /* UIView+frameAddition.h */,
+				D7CE3EF51ACE929E00685E98 /* UIView+frameAddition.m */,
+				D7CE3EFB1ACE9A1000685E98 /* UIViewController+CustomPopBehivor.h */,
+				D7CE3ED51ACE8ABE00685E98 /* Images.xcassets */,
+				D7CE3ED71ACE8ABE00685E98 /* LaunchScreen.xib */,
+				D7CE3EC81ACE8ABE00685E98 /* Supporting Files */,
+			);
+			path = CustomNavigationPopAnimation;
+			sourceTree = "<group>";
+		};
+		D7CE3EC81ACE8ABE00685E98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7CE3EC91ACE8ABE00685E98 /* Info.plist */,
+				D7CE3ECA1ACE8ABE00685E98 /* main.m */,
+				D7CE3F041ACE9B8100685E98 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7CE3EE11ACE8ABE00685E98 /* CustomNavigationPopAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7CE3EE41ACE8ABE00685E98 /* CustomNavigationPopAnimationTests.m */,
+				D7CE3EE21ACE8ABE00685E98 /* Supporting Files */,
+			);
+			path = CustomNavigationPopAnimationTests;
+			sourceTree = "<group>";
+		};
+		D7CE3EE21ACE8ABE00685E98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7CE3EE31ACE8ABE00685E98 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7CE3EC41ACE8ABE00685E98 /* CustomNavigationPopAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7CE3EE81ACE8ABE00685E98 /* Build configuration list for PBXNativeTarget "CustomNavigationPopAnimation" */;
+			buildPhases = (
+				D7CE3EC11ACE8ABE00685E98 /* Sources */,
+				D7CE3EC21ACE8ABE00685E98 /* Frameworks */,
+				D7CE3EC31ACE8ABE00685E98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomNavigationPopAnimation;
+			productName = CustomNavigationPopAnimation;
+			productReference = D7CE3EC51ACE8ABE00685E98 /* CustomNavigationPopAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7CE3EDD1ACE8ABE00685E98 /* CustomNavigationPopAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7CE3EEB1ACE8ABE00685E98 /* Build configuration list for PBXNativeTarget "CustomNavigationPopAnimationTests" */;
+			buildPhases = (
+				D7CE3EDA1ACE8ABE00685E98 /* Sources */,
+				D7CE3EDB1ACE8ABE00685E98 /* Frameworks */,
+				D7CE3EDC1ACE8ABE00685E98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7CE3EE01ACE8ABE00685E98 /* PBXTargetDependency */,
+			);
+			name = CustomNavigationPopAnimationTests;
+			productName = CustomNavigationPopAnimationTests;
+			productReference = D7CE3EDE1ACE8ABE00685E98 /* CustomNavigationPopAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7CE3EBD1ACE8ABE00685E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CNP;
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = zzy;
+				TargetAttributes = {
+					D7CE3EC41ACE8ABE00685E98 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					D7CE3EDD1ACE8ABE00685E98 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = D7CE3EC41ACE8ABE00685E98;
+					};
+				};
+			};
+			buildConfigurationList = D7CE3EC01ACE8ABE00685E98 /* Build configuration list for PBXProject "CustomNavigationPopAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7CE3EBC1ACE8ABE00685E98;
+			productRefGroup = D7CE3EC61ACE8ABE00685E98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7CE3EC41ACE8ABE00685E98 /* CustomNavigationPopAnimation */,
+				D7CE3EDD1ACE8ABE00685E98 /* CustomNavigationPopAnimationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7CE3EC31ACE8ABE00685E98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7CE3ED91ACE8ABE00685E98 /* LaunchScreen.xib in Resources */,
+				D7CE3ED61ACE8ABE00685E98 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7CE3EDC1ACE8ABE00685E98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7CE3EC11ACE8ABE00685E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7CE3F001ACE9A6700685E98 /* CNPViewController.m in Sources */,
+				D7CE3EF01ACE8AF300685E98 /* CNPNavigationController.m in Sources */,
+				D7CE3EF61ACE929E00685E98 /* UIView+frameAddition.m in Sources */,
+				D7CE3EF31ACE8B0E00685E98 /* CNPAnimation.m in Sources */,
+				D7CE3ECE1ACE8ABE00685E98 /* AppDelegate.m in Sources */,
+				D7CE3ECB1ACE8ABE00685E98 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7CE3EDA1ACE8ABE00685E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7CE3EE51ACE8ABE00685E98 /* CustomNavigationPopAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7CE3EE01ACE8ABE00685E98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7CE3EC41ACE8ABE00685E98 /* CustomNavigationPopAnimation */;
+			targetProxy = D7CE3EDF1ACE8ABE00685E98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7CE3ED71ACE8ABE00685E98 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7CE3ED81ACE8ABE00685E98 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7CE3EE61ACE8ABE00685E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D7CE3EE71ACE8ABE00685E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7CE3EE91ACE8ABE00685E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CustomNavigationPopAnimation/PrefixHeader.pch;
+				INFOPLIST_FILE = CustomNavigationPopAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D7CE3EEA1ACE8ABE00685E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CustomNavigationPopAnimation/PrefixHeader.pch;
+				INFOPLIST_FILE = CustomNavigationPopAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D7CE3EEC1ACE8ABE00685E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CustomNavigationPopAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomNavigationPopAnimation.app/CustomNavigationPopAnimation";
+			};
+			name = Debug;
+		};
+		D7CE3EED1ACE8ABE00685E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CustomNavigationPopAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomNavigationPopAnimation.app/CustomNavigationPopAnimation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7CE3EC01ACE8ABE00685E98 /* Build configuration list for PBXProject "CustomNavigationPopAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7CE3EE61ACE8ABE00685E98 /* Debug */,
+				D7CE3EE71ACE8ABE00685E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7CE3EE81ACE8ABE00685E98 /* Build configuration list for PBXNativeTarget "CustomNavigationPopAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7CE3EE91ACE8ABE00685E98 /* Debug */,
+				D7CE3EEA1ACE8ABE00685E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7CE3EEB1ACE8ABE00685E98 /* Build configuration list for PBXNativeTarget "CustomNavigationPopAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7CE3EEC1ACE8ABE00685E98 /* Debug */,
+				D7CE3EED1ACE8ABE00685E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7CE3EBD1ACE8ABE00685E98 /* Project object */;
+}
