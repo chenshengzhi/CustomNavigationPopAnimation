@@ -1,0 +1,8 @@
+build/
+project.xcworkspace
+xcuserdata
+*.xccheckout
+DerivedData
+*.ipa
+*.xcuserstate
+.DS_Store
