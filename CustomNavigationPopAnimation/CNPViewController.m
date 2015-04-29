@@ -8,6 +8,12 @@
 
 #import "CNPViewController.h"
 
+@interface CNPViewController ()
+
+@property (nonatomic, strong) UIButton *pushBtn;
+
+@end
+
 @implementation CNPViewController
 
 - (void)viewDidLoad {
@@ -15,12 +21,25 @@
     
     self.view.backgroundColor = [UIColor colorWithRed:(arc4random()%255)/255.0 green:(arc4random()%255)/255.0 blue:(arc4random()%255)/255.0 alpha:1];
     
-    UIButton *pushBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    pushBtn.frame = CGRectMake(20, 100, 100, 30);
-    pushBtn.backgroundColor = [UIColor redColor];
-    [pushBtn setTitle:@"push" forState:UIControlStateNormal];
-    [pushBtn addTarget:self action:@selector(pushHandle) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:pushBtn];
+    _pushBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    _pushBtn.frame = CGRectMake(20, 100, 100, 30);
+    _pushBtn.backgroundColor = [UIColor redColor];
+    [_pushBtn setTitle:@"push" forState:UIControlStateNormal];
+    [_pushBtn addTarget:self action:@selector(pushHandle) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:_pushBtn];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    CAKeyframeAnimation *animation = [CAKeyframeAnimation animationWithKeyPath:@"transform.translation.x"];
+    CGFloat x = 15;
+    animation.values = @[@0, @(-x), @0, @(x), @0];
+    animation.duration = .2;
+    animation.repeatCount = 3;
+    animation.removedOnCompletion = YES;
+    [_pushBtn.layer addAnimation:animation forKey:@"shake"];
 }
 
 - (void)pushHandle
